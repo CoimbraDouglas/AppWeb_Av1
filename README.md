@@ -61,9 +61,12 @@ Para execução com banco real.
 
 Criar banco no MariaDB:
 
+
 sql
 Copiar código
+```bash
 CREATE DATABASE empresa CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+```
 Ajustar src/main/resources/application.properties:
 
 properties
@@ -89,28 +92,34 @@ API REST: http://localhost:8081/api/departamentos / http://localhost:8081/api/fu
 🔌 Endpoints da API REST
 Departamentos
 Método	Endpoint	Descrição
+```bash
 POST	/api/departamentos	Criar novo departamento
 GET	/api/departamentos	Listar todos
 GET	/api/departamentos/{id}	Buscar por ID
 PUT	/api/departamentos/{id}	Atualizar
 DELETE	/api/departamentos/{id}	Excluir
+```
 
 Funcionários
 Método	Endpoint	Descrição
+```bash
 POST	/api/funcionarios	Criar novo funcionário
 GET	/api/funcionarios	Listar todos
 GET	/api/funcionarios/{id}	Buscar por ID
 PUT	/api/funcionarios/{id}	Atualizar
 DELETE	/api/funcionarios/{id}	Excluir
+```
 
 🖥 Interface Web (Thymeleaf)
 Rota	Função
+```bash
 /departamentos	Listagem e ações sobre departamentos
 /departamentos/novo	Criar novo departamento
 /departamentos/{id}/editar	Editar departamento
 /funcionarios	Listagem de funcionários
 /funcionarios/novo	Criar funcionário com dropdown de departamentos
 /funcionarios/{id}/editar	Editar funcionário
+```
 
 📸 Projeto em execução
 Segue algumas telas do sistema em execução:
