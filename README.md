@@ -62,26 +62,28 @@ Para execução com banco real.
 Criar banco no MariaDB:
 
 
-sql
-Copiar código
+Pode usar o comando sql a baixo ou criar manualmente
+
 ```bash
 CREATE DATABASE empresa CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 Ajustar src/main/resources/application.properties:
 
 properties
-Copiar código
+```bash
 spring.datasource.url=jdbc:mariadb://localhost:3306/empresa
 spring.datasource.username=SEU_USUARIO
 spring.datasource.password=SUA_SENHA
 spring.jpa.hibernate.ddl-auto=update
+```bash
+
 Rodar:
 
 ```bash
 Copiar código
 mvn clean package
 mvn spring-boot:run
-```
+```bash
 
 Acessar:
 
@@ -137,7 +139,7 @@ Segue algumas telas do sistema em execução:
 
 
 📂 Estrutura do Repositório
-bash
+```bash
 Copiar código
 av1-empresa/
 │
@@ -152,6 +154,7 @@ av1-empresa/
 ├── .gitignore
 ├── pom.xml
 └── README.md
+```
 
 📚 Referências
 Documentação Spring Boot
