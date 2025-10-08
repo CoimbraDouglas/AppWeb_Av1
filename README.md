@@ -75,7 +75,7 @@ spring.datasource.url=jdbc:mariadb://localhost:3306/empresa
 spring.datasource.username=SEU_USUARIO
 spring.datasource.password=SUA_SENHA
 spring.jpa.hibernate.ddl-auto=update
-```bash
+```
 
 Rodar:
 
@@ -83,7 +83,7 @@ Rodar:
 Copiar código
 mvn clean package
 mvn spring-boot:run
-```bash
+```
 
 Acessar:
 
