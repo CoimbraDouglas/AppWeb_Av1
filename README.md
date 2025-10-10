@@ -91,6 +91,7 @@ Interface Web: http://localhost:8081/departamentos / http://localhost:8081/funci
 
 API REST: http://localhost:8081/api/departamentos / http://localhost:8081/api/funcionarios
 
+
 🔌 Endpoints da API REST
 Departamentos
 Método	Endpoint	Descrição
@@ -100,6 +101,12 @@ GET	/api/departamentos	Listar todos
 GET	/api/departamentos/{id}	Buscar por ID
 PUT	/api/departamentos/{id}	Atualizar
 DELETE	/api/departamentos/{id}	Excluir
+```
+Exemplo:
+```
+PUT
+http://localhost:8082/api/funcionarios/1
+{"nome":"Mariana C. correa","email":"maria@email.com","dataAdmissao":"2020-05-01","departamento":{"id":1}}
 ```
 
 Funcionários
@@ -111,6 +118,8 @@ GET	/api/funcionarios/{id}	Buscar por ID
 PUT	/api/funcionarios/{id}	Atualizar
 DELETE	/api/funcionarios/{id}	Excluir
 ```
+
+Acessível pelo link: https://coimbra-doglas-8086003.postman.co/workspace/Douglas-Coimbra's-Workspace~68a40314-8d03-4044-8b02-d14fa18c9752/request/48982656-e3f24f1d-8555-45a0-b7b8-b46afa656b85?action=share&creator=48982656
 
 🖥 Interface Web (Thymeleaf)
 Rota	Função
@@ -129,10 +138,16 @@ Segue algumas telas do sistema em execução:
 01. Tela de visualização dos Departamentos e Banco de Dados
 ![Descrição da Imagem](src/main/resources/images/captura01.png)
 
-02. Tela de inserção dos Funcionários e Banco de Dados
+02. Tela de criação de novos Departamentos e Banco de Dados
+![Descrição da Imagem](src/main/resources/images/captura04.png)
+
+03. Tela de visualização dos Funcionários e Banco de Dados
+![Descrição da Imagem](src/main/resources/images/captura05.png)
+
+04. Tela de criação de novos Funcionários e Banco de Dados
 ![Descrição da Imagem](src/main/resources/images/captura02.png)
 
-03.Tela de comandos no Postman e Banco de Dados
+05.Tela de comandos no Postman e Banco de Dados
 ![Descrição da Imagem](src/main/resources/images/captura03.png)
 
 
