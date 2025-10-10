@@ -1,4 +1,4 @@
-AV1 — Sistema Monolítico: Funcionários & Departamentos
+<h1>AV1 — Sistema Monolítico: Funcionários & Departamentos</h1>
 
 ## 📖 Descrição
 Este projeto é uma **aplicação monolítica** desenvolvida em **Spring Boot**, que oferece uma solução completa para o gerenciamento de Funcionários e Departamentos.
@@ -102,9 +102,11 @@ GET	/api/departamentos/{id}	Buscar por ID
 PUT	/api/departamentos/{id}	Atualizar
 DELETE	/api/departamentos/{id}	Excluir
 ```
+
 Exemplo:
 ```
-PUT
+PUT no Postman.co
+
 http://localhost:8082/api/funcionarios/1
 {"nome":"Mariana C. correa","email":"maria@email.com","dataAdmissao":"2020-05-01","departamento":{"id":1}}
 ```
@@ -135,19 +137,19 @@ Rota	Função
 📸 Projeto em execução
 Segue algumas telas do sistema em execução:
 
-01. Tela de visualização dos Departamentos e Banco de Dados
+1. Tela de visualização dos Departamentos e Banco de Dados
 ![Descrição da Imagem](src/main/resources/images/captura01.png)
 
-02. Tela de criação de novos Departamentos e Banco de Dados
+2. Tela de criação de novos Departamentos e Banco de Dados
 ![Descrição da Imagem](src/main/resources/images/captura04.png)
 
-03. Tela de visualização dos Funcionários e Banco de Dados
+3. Tela de visualização dos Funcionários e Banco de Dados
 ![Descrição da Imagem](src/main/resources/images/captura05.png)
 
-04. Tela de criação de novos Funcionários e Banco de Dados
+4. Tela de criação de novos Funcionários e Banco de Dados
 ![Descrição da Imagem](src/main/resources/images/captura02.png)
 
-05.Tela de comandos no Postman e Banco de Dados
+5.Tela de comandos no Postman e Banco de Dados
 ![Descrição da Imagem](src/main/resources/images/captura03.png)
 
 
@@ -161,10 +163,10 @@ av1-empresa/
 ├── src/
 │   ├── main/
 │   │   ├── java/           # Código Java
-│   │   ├── resources/      # Configurações e templates
-│   │   └── static/         # Arquivos estáticos (CSS, JS, imagens)
+│   │   ├── resources/      # Configurações e templates e imagens
+│   │   └── static/         # Arquivos estáticos (CSS, JS)
 │   │
-│   └── test/               # Testes automatizados
+│   └── test/               # Testes 
 │
 ├── .gitignore
 ├── pom.xml
