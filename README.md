@@ -3,7 +3,7 @@
 ## 📖 Descrição
 Este projeto é uma **aplicação monolítica** desenvolvida em **Spring Boot**, que oferece uma solução completa para o gerenciamento de Funcionários e Departamentos.
 
-Professor: 	Leonardo Vieira Guimarães - Disciplina: Arquitetura de Aplicacoes Web - Curso: Análise e Desenvolvimento de Sistemas - Aluno: Douglas Coimbra Laass
+📚 **Disciplina:** Arquitetura de Aplicacoes Web 👨‍🏫 **Professor:** Leonardo Vieira Guimarãe 🏫 **Instituição:** Centro Universitário Newton Paiva ✍️ **Aluno:** Douglas Coimbra Laass.
 
 Incluindo:
 
