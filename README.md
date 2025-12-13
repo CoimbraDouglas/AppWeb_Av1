@@ -58,6 +58,7 @@ Console H2: http://localhost:8082/h2-console
 JDBC URL: jdbc:h2:mem:testdb
 
 🔹 Ambiente de Produção Local (MariaDB)
+
 Para execução com banco real.
 
 Criar banco no MariaDB:
@@ -94,6 +95,7 @@ API REST: http://localhost:8081/api/departamentos / http://localhost:8081/api/fu
 🔌 Endpoints da API REST
 
 Departamentos
+
 Método	Endpoint	Descrição
 ```bash
 POST	/api/departamentos	Criar novo departamento
@@ -180,10 +182,11 @@ av1-empresa/
 ```
 
 📚 Referências para estudos aprofundados
-Documentação Spring Boot
 
-Thymeleaf Documentation
+- Documentação Spring Boot
 
-MariaDB Documentation
+- Thymeleaf Documentation
 
-H2 Database Documentation
+- MariaDB Documentation
+
+- H2 Database Documentation
