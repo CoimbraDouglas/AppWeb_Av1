@@ -7,7 +7,7 @@ Este projeto é uma **aplicação monolítica** desenvolvida em **Spring Boot**,
 
 Incluindo:
 
-- **API RESTful** para CRUD completo (Create, Read, Update, Delete)  
+- **API RESTful** para CRUD completo (`Create`, `Read`, `Update`, `Delete`)  
 - **Interface web** com **Thymeleaf** para manipulação visual  
 - **Persistência em banco de dados**: MariaDB para produção e H2 para testes  
 - Suporte a múltiplos perfis de execução (**test / production**)
