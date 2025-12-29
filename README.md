@@ -1,7 +1,7 @@
 <h1>AV1 — Sistema Monolítico: Funcionários & Departamentos</h1>
 
 ## 📖 Descrição
-Este projeto é uma **aplicação monolítica** desenvolvida em **Spring Boot**, que oferece uma solução completa para o gerenciamento de Funcionários e Departamentos.
+Este projeto é uma **aplicação monolítica** desenvolvida em *Spring Boot*, que oferece uma solução completa para o gerenciamento de Funcionários e Departamentos.
 
 📚 **Disciplina:** Arquitetura de Aplicacoes Web 👨‍🏫 **Professor:** Leonardo Vieira Guimarãe 🏫 **Instituição:** Centro Universitário Newton Paiva ✍️ **Aluno:** Douglas Coimbra Laass.
 
