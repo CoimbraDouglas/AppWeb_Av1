@@ -1,4 +1,4 @@
-<h1>AV1 — Sistema Monolítico: Funcionários & Departamentos</h1>
+# AV1 — Sistema Monolítico: Funcionários & Departamentos
 
 ## 📖 Descrição
 Este projeto é uma **aplicação monolítica** desenvolvida em *Spring Boot*, que oferece uma solução completa para o gerenciamento de Funcionários e Departamentos.
@@ -15,6 +15,7 @@ Incluindo:
 ---
 
 ## 🛠 Tecnologias Utilizadas
+
 - **Java 17+**
 - **Spring Boot**
 - **Spring Web**
@@ -28,6 +29,7 @@ Incluindo:
 ---
 
 ## 🚀 Estrutura do Projeto
+
 O sistema é composto por:
 - **Model** — entidades `Funcionario` e `Departamento`
 - **Repository** — acesso a dados com JPA
@@ -41,6 +43,7 @@ O sistema é composto por:
 ## 🏃 Como Rodar Localmente
 
 ### 🔹 Ambiente de Teste (H2 Database)
+
 Ideal para desenvolvimento e provas, sem necessidade de instalar banco externo.
 
 1. Rodar no terminal:
@@ -92,7 +95,7 @@ Interface Web: http://localhost:8081/departamentos / http://localhost:8081/funci
 API REST: http://localhost:8081/api/departamentos / http://localhost:8081/api/funcionarios
 
 
-🔌 Endpoints da API REST
+### 🔌 Endpoints da API REST
 
 Departamentos
 
@@ -128,7 +131,7 @@ DELETE	/api/funcionarios/{id}	Excluir
 
 Acessível pelo link: https://coimbra-doglas-8086003.postman.co/workspace/Douglas-Coimbra's-Workspace~68a40314-8d03-4044-8b02-d14fa18c9752/request/48982656-e3f24f1d-8555-45a0-b7b8-b46afa656b85?action=share&creator=48982656
 
-🖥 Interface Web (Thymeleaf)
+## 🖥 Interface Web (Thymeleaf)
 
 
 ```bash
@@ -141,7 +144,7 @@ Rota	Função
 /funcionarios/{id}/editar	Editar funcionário
 ```
 
-📸 Projeto em execução
+## 📸 Projeto em execução
 
 Segue algumas telas do sistema em execução:
 
@@ -160,10 +163,7 @@ Segue algumas telas do sistema em execução:
 5.Tela de comandos no Postman e Banco de Dados
 ![Descrição da Imagem](src/main/resources/images/captura03.png)
 
-
-
-
-📂 Estrutura do Repositório
+## 📂 Estrutura do Repositório
 
 ```bash
 av1-empresa/
@@ -181,7 +181,7 @@ av1-empresa/
 └── README.md
 ```
 
-📚 Referências para estudos aprofundados
+## 📚 Referências para estudos aprofundados
 
 - Documentação Spring Boot
 
