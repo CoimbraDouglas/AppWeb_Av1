@@ -46,13 +46,14 @@ O sistema é composto por:
 
 Ideal para desenvolvimento e provas, sem necessidade de instalar banco externo.
 
-1. Rodar no terminal:
+**1. Rodar no terminal:**
    
 ```bash
 mvn clean package
 mvn spring-boot:run -Dspring-boot.run.arguments="--spring.profiles.active=test"
 ```
-2. Acessar:
+
+**2. Acessar:**
 
 Interface Web: http://localhost:8082/departamentos / http://localhost:8082/funcionarios
 
@@ -71,9 +72,9 @@ Pode usar o comando sql a baixo ou criar manualmente
 ```bash
 CREATE DATABASE empresa CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
+
 Ajustar src/main/resources/application.properties:
 
-properties
 ```bash
 spring.datasource.url=jdbc:mariadb://localhost:3306/empresa
 spring.datasource.username=SEU_USUARIO
@@ -94,6 +95,7 @@ Interface Web: http://localhost:8081/departamentos / http://localhost:8081/funci
 
 API REST: http://localhost:8081/api/departamentos / http://localhost:8081/api/funcionarios
 
+---
 
 ### 🔌 Endpoints da API REST
 
@@ -109,7 +111,6 @@ DELETE	/api/departamentos/{id}	Excluir
 ```
 
 Exemplo:
-
 
 ```
 PUT no Postman.co
@@ -131,6 +132,8 @@ DELETE	/api/funcionarios/{id}	Excluir
 
 Acessível pelo link: https://coimbra-doglas-8086003.postman.co/workspace/Douglas-Coimbra's-Workspace~68a40314-8d03-4044-8b02-d14fa18c9752/request/48982656-e3f24f1d-8555-45a0-b7b8-b46afa656b85?action=share&creator=48982656
 
+---
+
 ## 🖥 Interface Web (Thymeleaf)
 
 
@@ -143,6 +146,8 @@ Rota	Função
 /funcionarios/novo	Criar funcionário com dropdown de departamentos
 /funcionarios/{id}/editar	Editar funcionário
 ```
+
+---
 
 ## 📸 Projeto em execução
 
@@ -163,6 +168,8 @@ Segue algumas telas do sistema em execução:
 5.Tela de comandos no Postman e Banco de Dados
 ![Descrição da Imagem](src/main/resources/images/captura03.png)
 
+---
+
 ## 📂 Estrutura do Repositório
 
 ```bash
@@ -181,12 +188,14 @@ av1-empresa/
 └── README.md
 ```
 
-## 📚 Referências para estudos aprofundados
+---
 
-- Documentação Spring Boot
+## 📚 Referências para Estudos Aprofundados
 
-- Thymeleaf Documentation
+* Documentação Spring Boot
 
-- MariaDB Documentation
+* Thymeleaf Documentation
 
-- H2 Database Documentation
+* MariaDB Documentation
+
+* H2 Database Documentation
