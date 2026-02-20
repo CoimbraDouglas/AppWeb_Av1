@@ -65,7 +65,7 @@ JDBC URL: jdbc:h2:mem:testdb
 
 Para execução com banco real.
 
-Criar banco no MariaDB:
+- Criar banco no MariaDB:
 
 Pode usar o comando sql a baixo ou criar manualmente
 
@@ -82,14 +82,14 @@ spring.datasource.password=SUA_SENHA
 spring.jpa.hibernate.ddl-auto=update
 ```
 
-Rodar:
+- Rodar:
 
 ```bash
 mvn clean package
 mvn spring-boot:run
 ```
 
-Acessar:
+- Acessar:
 
 Interface Web: http://localhost:8081/departamentos / http://localhost:8081/funcionarios
 
@@ -99,7 +99,7 @@ API REST: http://localhost:8081/api/departamentos / http://localhost:8081/api/fu
 
 ### 🔌 Endpoints da API REST
 
-Departamentos
+- **Departamentos**
 
 Método	Endpoint	Descrição
 ```bash
@@ -119,7 +119,7 @@ http://localhost:8082/api/funcionarios/1
 {"nome":"Mariana C. correa","email":"maria@email.com","dataAdmissao":"2020-05-01","departamento":{"id":1}}
 ```
 
-Funcionários
+- **Funcionários**
 
 ```bash
 Método	Endpoint	Descrição
