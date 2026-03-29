@@ -31,12 +31,12 @@ Incluindo:
 ## 🚀 Estrutura do Projeto
 
 O sistema é composto por:
-- **Model** — entidades `Funcionario` e `Departamento`
-- **Repository** — acesso a dados com JPA
-- **Service** — lógica de negócio
-- **Controller** — endpoints REST e páginas Thymeleaf
-- **Templates Thymeleaf** — views HTML
-- **Configurações** — diferentes profiles (`application.properties` e `application-test.properties`)
+- **Model** — entidades `Funcionario` e `Departamento`.
+- **Repository** — acesso a dados com JPA.
+- **Service** — lógica de negócio.
+- **Controller** — endpoints REST e páginas Thymeleaf.
+- **Templates Thymeleaf** — views HTML.
+- **Configurações** — diferentes profiles (`application.properties` e `application-test.properties`).
 
 ---
 
